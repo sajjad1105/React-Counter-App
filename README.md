@@ -5,7 +5,7 @@ A simple yet elegant Counter Application built using React.js and Hooks (useStat
 
 ## 📸 Screenshot
 
-![React Counter App Screenshot](./Screenshot%20(351).png)
+![React Counter App Screenshot](./Screenshot%20(12).png)
 
 ---
 
