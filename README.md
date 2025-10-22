@@ -13,7 +13,7 @@ A simple yet elegant Counter Application built using React.js and Hooks (useStat
 
 - 🔢 Increase or decrease the count
 - ♻️ Reset the count to zero
-- 🚫 Prevent going below 0 or above 50
+- 🚫 Prevent going below 0 or above 100
 - ⚠️ Show friendly limit messages (no pop-ups!)
 - 🔒 Disable buttons at max/min limits
 - 🎨 Clean and responsive UI
