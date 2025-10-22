@@ -1,0 +1,116 @@
+/* Background styling */
+body {
+  background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+/* Container */
+.Container {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 40px 60px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Heading */
+.Container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Counter Number */
+.Container h3 {
+  font-size: 4rem;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #fff;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+/* Button Styling */
+button {
+  font-size: 1.5rem;
+  border: none;
+  margin: 10px;
+  padding: 15px 25px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #fff;
+  background: linear-gradient(145deg, #6a11cb, #2575fc);
+  box-shadow: 0 5px 15px rgba(37, 117, 252, 0.3);
+}
+
+/* Hover effect */
+button:hover:not(:disabled) {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(37, 117, 252, 0.4);
+}
+
+/* Active effect */
+button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 8px rgba(37, 117, 252, 0.4);
+}
+
+/* Disabled button */
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background: #777;
+}
+
+/* Limit message */
+.limit-message {
+  font-size: 1rem;
+  margin-top: 15px;
+  color: #ffcc00;
+  animation: blink 1s infinite;
+}
+
+/* Animations */
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+body {
+  background: linear-gradient(270deg, #ff6ec4, #7873f5, #74ebd5);
+  background-size: 600% 600%;
+  animation: gradientShift 10s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
